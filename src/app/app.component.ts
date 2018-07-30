@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 
+import { registrationForm } from './config';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dynamic-stuff';
+  public registrationForm = registrationForm;
+
+  public formSubmitted(value) {
+    console.log(value);
+  }
 }
