@@ -1,6 +1,7 @@
 # DynamicStuff
+Best project name
 
-##Only for learning purposes. 
+## Only for learning purposes. 
 The repo contains some code that shows how to implement dynamic forms in angular 2+. This readme will have more accurate explanation about the topic, but not now =)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
